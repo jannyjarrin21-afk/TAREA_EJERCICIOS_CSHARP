@@ -1,0 +1,1 @@
+﻿```mermaidflowchart TD    A([INICIO]) --> B[/Ingresar número entero n/]    B --> C{"¿n MOD 2 = 0?"}    C -- Sí --> D[/Mostrar: El número es par/]    C -- No --> E[/Mostrar: El número es impar/]    D --> F([FIN])    E --> F```
